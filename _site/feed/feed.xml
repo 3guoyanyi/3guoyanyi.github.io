@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>学无止境</title>
+        <description>Just Fun.</description>
+        <link>3guoyanyi.github.io</link>
+        <atom:link href="3guoyanyi.github.io/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+               <title>Day01</title>
+               <description>&lt;h1 id=&quot;github&quot;&gt;Github&lt;/h1&gt;
+
+&lt;p&gt;学习github注册安装及使用&lt;/p&gt;
+</description>
+               <pubDate>Fri, 19 Jul 2019 00:00:00 +0800</pubDate>
+               <link>3guoyanyi.github.io/2019/07/19/day01.html</link>
+               <guid isPermaLink="true">3guoyanyi.github.io/2019/07/19/day01.html</guid>
+               </item>
+        
+    </channel>
+</rss>
