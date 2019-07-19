@@ -14,7 +14,7 @@ bulidtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/ti
 paginate: 8 #同时显示的最大文章数，超过自动分页
 paginate_path: "page:num"
 
-background: https://api.dujin.org/bing/1920.php
+background: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563551063266&di=4e6fe8184b97f133a53176726b010e0f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201806%2F30%2F20180630190713_cclyb.jpg
 theme_color: 546E7A
 
 google_analytics:
