@@ -44,23 +44,24 @@ Git 是用于 Linux内核开发的版本控制工具。
 | git push <remote> --force | 强行推送当前分支到远程仓库，即使有冲突 |
 | git push <remote> --all   | 推送所有分支到远程仓库                 |
 
-| git status               | 显示有变更的文件                         |
-| :----------------------- | :--------------------------------------- |
-| git log                  | 显示当前分支的版本历史                   |
-| git diff                 | 显示暂存区和工作区的差异                 |
-| git diff HEAD            | 显示工作区与当前分支最新commit之间的差异 |
-| git cherry-pick <commit> | 选择一个commit，合并进当前分支           |
+| git status                       | 显示有变更的文件                         |
+| :------------------------------- | :--------------------------------------- |
+| git status -sb                   | 简洁显示状态                             |
+| git log                          | 显示当前分支的版本历史                   |
+| git tag -a v1.1 -m "version 1.1" | 打标签                                   |
+| git diff                         | 显示暂存区和工作区的差异                 |
+| git diff HEAD                    | 显示工作区与当前分支最新commit之间的差异 |
+| git cherry-pick <commit>         | 选择一个commit，合并进当前分支           |
+| git show tag名                   | 查看标签                                 |
+| git show HEAD                    | 查看最后一次提交修改的详细信息           |
+| git push origin tagname          | 传送标签到远程仓库                       |
+| git tag -d tagname               | 删除标签                                 |
+| git commit --amend               | 重新提交                                 |
+| git remote                       | 查看远程仓库                             |
+| git remote add name rul          | 添加远程仓库                             |
+| git blame                        | 查看文件的修改历史                       |
+| git rm 文件名                    | 从commit撤回到add                        |
+| git reflog                       | 查看之前版本的commit id                  |
+| git hi                           | 查看提交内容                             |
 
-git tag -a v1.1 -m "version 1.1"    |  打标签
 
-git show  查看标签
-
-git push origin tagname 传送标签到远程仓库
-
-git tag -d tagname 删除标签
-
-git commit --amend   重新提交
-
-git remote 查看远程仓库
-
-git remote add name rul  添加远程仓库
